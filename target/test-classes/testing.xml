@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Runners">
+  <test name="Run all Test">
+    <classes>
+      <class name="runners.LoginRunner"/>
+      <class name="runners.HomeRunner"/>
+      <class name="runners.SearchRunner"/>
+      <class name="runners.ProductRunner"/>
+      <class name="runners.CartRunner"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

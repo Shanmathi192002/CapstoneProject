@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Runners]">
+  <test name="Run all Test(failed)" preserve-order="true">
+    <classes>
+      <class name="runners.ProductRunner">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- runners.ProductRunner -->
+      <class name="runners.SearchRunner">
+        <methods>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- runners.SearchRunner -->
+      <class name="runners.LoginRunner">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- runners.LoginRunner -->
+      <class name="runners.CartRunner">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- runners.CartRunner -->
+      <class name="runners.HomeRunner">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- runners.HomeRunner -->
+    </classes>
+  </test> <!-- Run all Test(failed) -->
+</suite> <!-- Failed suite [All Test Runners] -->
