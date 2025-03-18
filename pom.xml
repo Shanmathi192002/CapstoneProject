@@ -36,7 +36,7 @@
         	<version>0.0.1-SNAPSHOT</version>
         </dependency>
 
-    <dependency>
+<!--     <dependency>
         <groupId>commons-io</groupId>
         <artifactId>commons-io</artifactId>
         <version>2.11.0</version>
@@ -56,8 +56,25 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>
+    </build> -->
 
+     <!-- AssertJ (optional, for more fluent assertions) -->
+      <dependency>
+          <groupId>org.assertj</groupId>
+          <artifactId>assertj-core</artifactId>
+          <version>3.24.2</version>
+      </dependency>
+      <dependency>
+          <groupId>commons-io</groupId>
+          <artifactId>commons-io</artifactId>
+          <version>2.4</version>
+      </dependency>
+      <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-simple</artifactId>
+          <version>1.7.32</version>
+      </dependency>
+  </dependencies>
   
   
 </project>
